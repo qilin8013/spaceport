@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+#ContainerIndex  h2, #ContainerIndex  h3, #ContainerIndex  h4{
+	width:300px;
+	height:50px;
+	background-color:#533336;
+	line-height:50px;
+	text-align:center;
+	letter-spacing:5px;
+	font-size:30px;
+	font-weight:inherit;
+	color:#fff;
+	margin:-25px auto auto auto;
+}
+
+/*********************************
+ *       Container部分开始       *
+ *********************************/
+#ContainerIndex{
+	width:100%;
+}
+/**   第一层 食品推荐 样式 .C-Food  **/
+#ContainerIndex .CI-Food{
+	width:100%;
+	margin-top:80px;
+	margin-bottom:20px;
+	border-top:5px solid #533336;
+}
+#ContainerIndex .CI-Food .CI-FoodImg{
+	width:1080px;
+	position:relative;
+	margin:30px auto auto auto;
+}
+#ContainerIndex .CI-FoodImg > a{
+	display:inline-block;
+	padding:5px;
+}
+#ContainerIndex .CI-FoodImg .CI-Food-Figcap{
+	position:absolute;
+	left:46%;
+	bottom:0;
+}
+/**   第二层 公司简介 样式 .C-Company  **/
+#ContainerIndex .CI-Company{
+	width:100%;
+	margin-top:80px;
+	border-top:5px solid #533336;
+}
+#ContainerIndex .CI-CompImg{
+	width:1080px;
+	margin:30px auto auto auto;
+}
+#ContainerIndex .CI-CompImg .CI-C-Left{
+	width:47%;
+	height:400px;
+	float:left;
+	text-align:center;
+}
+#ContainerIndex .CI-CompImg .CI-C-Right{
+	width:50%;
+	height:400px;
+	float:right;
+}
+#ContainerIndex .CI-CompImg .CI-C-Right > p{
+	font-size:18px;
+	text-indent:2em; /* 每段首行缩进2个字符 */
+	letter-spacing:2px;
+}
+/**   第三层 新闻资讯 样式 .C-New  **/ 
+#ContainerIndex .CI-New{
+	width:100%;
+	margin-top:80px;
+	border-top:5px solid #533336;
+}
+#ContainerIndex .CI-New .CI-NewImg{
+	width:1080px;
+	margin:30px auto auto auto;
+}
+#ContainerIndex .CI-New .CI-N-Left{
+	width:42%;
+	height:260px;
+	float:left;
+	text-align:center;
+}
+#ContainerIndex .CI-New .CI-N-Right{
+	width:55%;
+	height:260px;
+	float:right;
+}
+#ContainerIndex .CI-New .CI-N-Right a{
+	display:block;
+	color:#555;
+	height:20px;
+	margin-top:10px;
+	font-size:18px;
+}
+#ContainerIndex .CI-New .CI-N-Right > a:hover{
+	color:#533336;
+}
+#ContainerIndex .CI-New .CI-N-Right span{
+	float:left;	
+}
+#ContainerIndex .CI-New .CI-N-Right time{
+	float:right;	
+}
+ /*********************************
+ *      Container部分结束         *
+ *********************************/

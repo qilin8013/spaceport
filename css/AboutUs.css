@@ -1,0 +1,45 @@
+@charset "utf-8";
+#ContainerAbout{
+	width:100%;
+	margin-top:120px;
+	border-top:2px solid #533336;
+}
+#ContainerAbout > h2{
+	font-size:25px;
+	color:#fff;
+	width:300px;
+	line-height:50px;
+	text-align:center;
+	letter-spacing:5px;
+	background-color:#533336;
+	margin:-25px auto auto auto;
+}
+#ContainerAbout .CA-Introduce{
+	width:1080px;
+	margin:0 auto;
+}
+#ContainerAbout .CA-Introduce > dl{
+	width:1080px;
+	margin-top:25px;
+	border:1px solid #eee;
+	display:inline-block;
+}
+#ContainerAbout .CA-Introduce dl > dt{
+	float:left;
+}
+#ContainerAbout .CA-Introduce dl > dd{
+	width:570px;
+	float:right;
+	margin-top:10px;
+	cursor:pointer;
+}
+#ContainerAbout .CA-Introduce dl h6{
+	font-size:22px;
+	color:#555;
+	margin-bottom:20px;
+}
+#ContainerAbout .CA-Introduce dl span{
+	color:#666;
+	display:block;
+	font-size:18px;
+}
